@@ -1,0 +1,39 @@
+body {
+    background-color: #053a6e;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-top: 50px;
+}
+
+
+h2 {
+    color: #053a6e
+}
+
+#task-form .form-control,
+#task-form .form-select {
+    border-radius: 5px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.list-group-item.completed {
+    text-decoration: line-through;
+    background-color: #053a6e;
+}
+
+button {
+    margin-left: 5px;
+}
